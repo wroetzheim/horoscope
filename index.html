@@ -1,0 +1,38 @@
+<head>
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.teal-amber.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+ 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+ 	<script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+ 	<script src='script.js'></script>
+</head>
+
+<body>
+
+    <div id="container">
+    <h1>Horoscope</h1>
+    <p>Enter your sign and then press the Find Horoscope button</p>
+        <form id="horoscope-form" action="#">
+        	<div class="mdl-textfield mdl-js-textfield">
+        		<input id="horoscope-input" class="mdl-textfield__input" placeholder="Enter Sign" type="text"></input>
+    			<label class="mdl-textfield__label" for="horoscope-input">Astrological Sign</label>
+    		</div>
+    		<button type="submit" id="horoscope-submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Find Horoscope</button>
+        	
+        </form>
+
+
+
+
+
+
+        <p id="horoscope-keywords"></p>
+
+        <p>Intensity Scale</p><p id="horoscope-intensity"></p>
+
+        <p id="horoscope-text"></p>
+
+        <p id="horoscope-mood"></p>
+
+    </div>
+</body>
